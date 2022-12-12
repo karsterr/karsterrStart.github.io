@@ -1,0 +1,182 @@
+body{
+    background: #091515;
+    color: #4491D2;
+    font-family:"Nasalization Rg",sans-serif;
+}
+
+#txt{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+h1{
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 5%;
+}
+
+ul{
+    columns: 3;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    margin-right: 5%;
+}
+
+.contentleft {
+    float: left;
+    margin-left: 14%;
+}
+
+.contentright {
+    float: right;
+    margin-right: 14%;
+}
+
+.contentleft, .contentright
+{
+    width:35%;
+    margin-top: 5%;
+    background-color: #151a1d;
+    font-family:"Nasalization Rg",sans-serif;
+    border-radius: 8px;
+    font-size: 10px;
+}
+
+.contentleft h1, .contentright h1{
+    margin-top:5px;
+    color:#4491D2;
+    display:block;
+    padding: 5px 0;
+    font-size: 2.26rem;
+}
+
+li,a{
+    list-style-type: none;
+    font-family: "DejaVu Sans",sans-serif;
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+form {
+    background-color: #091515;
+    width: 75%;
+    margin-left: 12.5%;
+    height: 44px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: #4491D2;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder {
+    color: #4491D2;
+    opacity: 0.7;
+    text-align: center;
+}
+
+svg {
+    color: #4491D2;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+.container {
+    color: #4491D2;
+    font-size: 2.26rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32px;
+}
+
+.animation {
+    height:50px;
+    overflow:hidden;
+    margin-left: 0.5rem;
+}
+
+.animation > div > div {
+    padding: 0.25rem 0.8rem;
+    height:3rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+}
+
+.animation div:first-child {
+    animation: text-animation 8s infinite;
+}
+
+.first div {
+    opacity: 85%;
+    text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+.second div {
+    opacity: 85%;
+    text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+
+.third div {
+    opacity: 85%;
+    text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+
+@keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.9rem;}
+    30% {margin-top: -5.9rem;}
+    40% {margin-top: -11.9rem;}
+    60% {margin-top: -11.9rem;}
+    70% {margin-top: -5.9rem;}
+    80% {margin-top: -5.9rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+}
+
+.quote{
+    font-family: "DejaVu Serif",Serif;
+    color: #EEEEEE;
+    font-size: 20px;
+    text-indent: 16px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.wst{
+    font-family: "Droid Sans",sans-serif;
+    text-align: right;
+    font-size: 20px;
+    margin-right: 2%;
+    color: #4491D2;
+    margin-top: -2%;
+}
+
+img.logo{
+    width: 50px;
+    margin-left: 8%;
+    margin-right: 5.5%;
+}
